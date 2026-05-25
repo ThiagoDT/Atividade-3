@@ -1,7 +1,7 @@
 const pool = require("./connection");
 
 async function listUsers(){
-    const sql = "select * From users order by name asc";
+    const sql = "select * From usuario";
     //manda o comando sql 
    const {rows} = await pool.query(sql);
    return rows;

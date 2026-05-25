@@ -5,6 +5,7 @@
   "main": "src/server.js",
   "scripts": {
     "start": "node ./src/server",
+    "db:init":"node ./src/infra/run_sql",
     "dev": "node --watch ./src/server"
   },
   "keywords": [],
