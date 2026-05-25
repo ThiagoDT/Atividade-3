@@ -2,10 +2,11 @@
   "name": "app",
   "version": "1.0.0",
   "description": "<h1> Atividade 3</h3>",
-  "main": "server.js",
+  "main": "src/server.js",
   "scripts": {
-    "start": "node ./server",
-    "dev": "node --watch ./server"
+    "start": "node ./src/server",
+    "db:init":"node ./src/infra/run_sql",
+    "dev": "node --watch ./src/server"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +14,7 @@
   "type": "commonjs",
   "dependencies": {
     "dotenv": "^17.4.2",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "pg": "^8.20.0"
   }
 }
