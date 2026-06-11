@@ -15,6 +15,7 @@ async function createUser(name, email) {
         return rows[0];
     }catch(e){
         console.log(e.message);
+        
         return;
     }
 }
