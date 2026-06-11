@@ -12,7 +12,6 @@ if(process.env.DATABASE_URL!=""){
     connection={
         connectionString: process.env.DATABASE_URL,
     };
-
 }else{
     connection = {
     host:process.env.POSTGRES_HOST,
@@ -20,9 +19,9 @@ if(process.env.DATABASE_URL!=""){
     password:process.env.POSTGRES_PASSWORD,
     database:process.env.POSTGRES_DATABASE,
     port:process.env.POSTGRES_PORT
-
-}; 
+    }; 
 }
+
 
 //gerencia a conexão com o banco de dados
 const pool = new Pool(connection);

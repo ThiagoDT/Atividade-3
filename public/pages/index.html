@@ -8,10 +8,29 @@
         <title>DSM - Cadastro</title>
     </head>
     <body>
-        <main>
-            <div>Boa Noite</div>
+        <main class="card">
+            <h1 class="title">Cadastro de Usuarios</h1>
+            <input class="user-input" id="user-nome" placeholder="Digite o nome do usuario"/>
+            <input class="user-input" id="user-email" placeholder="Digite o e-mail" type="email"/>
+            <div class="actions">
+                <button class="action-button action-button-primary" id="save-user">Salvar</button>
+                <button class= "action-button action-button-secondary"id="clear-user">Limpar</button>
+            </div>
+            <section class="result" id="result"></section>
+            <section class="user-list">
+                <table class="user-table">
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>E-mail</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody id="users-table-body"></tbody>
+                </table>
+            </section>
         </main> 
-        <script src="/assets/javascript/main.js">
+        <script src="/assets/js/main.js">
         </script>
     </body>
 </html>
