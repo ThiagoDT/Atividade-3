@@ -1,23 +1,17 @@
 const pool = require("./connection");
 
 async function listUsers(){
-   const sql = "select * From users";
+    const sql = "select * From users";
     //manda o comando sql 
    const {rows} = await pool.query(sql);
    return rows;
 }
 
 async function createUser(name, email) {
-    try{
-        const sql = `insert into users(name,email) values ($1, $2) returning *`;
-        const values = [name, email];
-        const {rows} = await pool.query(sql,values);
-        return rows[0];
-    }catch(e){
-        console.log(e.message);
-        
-        return;
-    }
+    const sql = `insert into users(name,email) values ($1, $2) returning *`;
+    const values = [name, email];
+    const {rows} = await pool.query(sql,values);
+    return rows[0];
 }
 
 async function deleteUser(id) {
