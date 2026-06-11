@@ -8,10 +8,15 @@ async function listUsers(){
 }
 
 async function createUser(name, email) {
-    const sql = `insert into users(name,email) values ($1, $2) returning *`;
-    const values = [name, email];
-    const {rows} = await pool.query(sql,values);
-    return rows[0];
+    try{
+        const sql = `insert into users(name,email) values ($1, $2) returning *`;
+        const values = [name, email];
+        const {rows} = await pool.query(sql,values);
+        return rows[0];
+    }catch(e){
+        console.log(e.message);
+        return;
+    }
 }
 
 async function deleteUser(id) {
