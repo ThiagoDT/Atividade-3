@@ -2,7 +2,7 @@
 
 ## Descrição do Desafio
 Este projeto tem como objetivo de ensino pedagogico, a funcionalidade dele é adicionar, deletar e ver os usuario cadastrados.
-Link do site é : <h3>Link do site: <a href="">Atividade  Mega Sena</a></h3>
+Link do site é : <h3>Link do site: <a href="">Atividade 3</a></h3>
 
 ## Tecnologias utilizadas
 O projeto tem como objetivo educacional e por isso não utiliza frameworks, as tecnologias utilizadas foram:
@@ -69,6 +69,6 @@ OU
 npm run start
 ```
 ## Imagens do Site em funcionamento
-<h4><img src="https://github.com/ThiagoDT/Atividade-3/blob/main/Capturas-de-Telas/image.png" alt="Imagem do site com a ultimo sorteio"><br>Imagem do site com usuarios cadastrado</h4>
+<h4><img src="https://github.com/ThiagoDT/Atividade-3/blob/main/Capturas-de-Telas/image.png](https://github.com/ThiagoDT/Atividade-3/blob/main/Capturas%20de%20Telas/image.png" alt="Imagem do site com a ultimo sorteio"><br>Imagem do site com usuarios cadastrado</h4>
 <br>
 
