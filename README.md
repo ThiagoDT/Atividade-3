@@ -2,7 +2,7 @@
 
 ## Descrição do Desafio
 Este projeto tem como objetivo de ensino pedagogico, a funcionalidade dele é adicionar, deletar e ver os usuario cadastrados.
-Link do site é : <h3>Link do site: <a href="https://atividade-5-5370.onrender.com/">Atividade 5 Mega Sena</a></h3>
+Link do site é : <h3>Link do site: <a href="">Atividade  Mega Sena</a></h3>
 
 ## Tecnologias utilizadas
 O projeto tem como objetivo educacional e por isso não utiliza frameworks, as tecnologias utilizadas foram:
