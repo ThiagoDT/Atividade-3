@@ -69,6 +69,6 @@ OU
 npm run start
 ```
 ## Imagens do Site em funcionamento
-<h4><img src="https://github.com/ThiagoDT/Atividade-3/blob/main/Capturas-de-Telas/image.png](https://github.com/ThiagoDT/Atividade-3/blob/main/Capturas%20de%20Telas/image.png" alt="Imagem do site com a ultimo sorteio"><br>Imagem do site com usuarios cadastrado</h4>
+<h4><img src="https://github.com/ThiagoDT/Atividade-3/blob/main/Capturas%20de%20Telas/image.png" alt="Imagem do site com a ultimo sorteio"><br>Imagem do site com usuarios cadastrado</h4>
 <br>
 
