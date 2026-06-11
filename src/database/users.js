@@ -7,9 +7,9 @@ async function listUsers(){
         const {rows} = await pool.query(sql);
         return rows;
     }catch(error){
-        return error.message;
+        console.log(error.message)
+        return error;
     }
-    
 }
 
 async function createUser(name, email) {

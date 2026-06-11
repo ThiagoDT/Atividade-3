@@ -28,7 +28,7 @@ async function deleteUser(id){
 
     }else{
         showResult("Problemas ao excluir o usuário","error")
-        alert({"Problema":response});
+        alert(response);
     }
 }
 function renderUsers(users){
@@ -86,7 +86,7 @@ async function createUser(){
 
         }else{
             showResult("Problemas ao cadastrar o usuário","error")
-            alert({"Problema":response});
+            alert(response);
         } 
     }else{
         showResult("Preencha nome e email para continuar.","error")
